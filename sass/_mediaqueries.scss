@@ -1,0 +1,29 @@
+@media screen and (max-width:800px) {
+	.container-img {
+		width: 95%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		grid-template-rows: 200px;
+		.box-img {
+			&:nth-child(1) {
+				grid-column-start: span 1;
+			}
+		}
+	}
+}
+@media screen and (max-width:500px) {
+	.container-img {
+		width: 90%;
+		grid-template-columns: repeat(1, 1fr);
+		.box-img {
+			img {
+				height: 200px;
+			}
+		}
+	}
+}
+@media (max-width:612px) {
+	.box {
+		flex-grow: 0.7;
+	}
+}

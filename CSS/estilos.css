@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/**GALERIA**/
+
 .container-img{
     width: 100%;
     max-width: 1100px;
@@ -30,6 +30,8 @@
 .container-img .box-img:nth-child(4){
     grid-row-start: span 2;
 }
+/**-----------------------------------------------------------------------------------------**/
+/**listo**/
 @media screen and (max-width:800px){
     .container-img{
         width: 95%;
@@ -50,7 +52,8 @@
         height: 200px;
     }
 }
-/**BIOGRAFIA**/
+/**-----------------------------------------------------------------------------------------------------------**/
+
 /*GENERAL*/
 body {
     color: rgb(0, 0, 0);
@@ -102,7 +105,8 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+/**---------------------------------------------------------------------------------------------------------------------**/
+/*listo***/
 .heading {
     font-size: 1.3rem;
     color: #ffffff;
@@ -123,6 +127,7 @@ body {
     font-size: 0.9rem;
     margin: 0 20px;
 }
+/**---------------------------------------------------------------------------------------------------**/
 
 .box{
     width: 266px;
@@ -159,7 +164,7 @@ body {
 .verify{
      color: #000000;
 }
-
+/**--------------------------------------------------------------------------------------------------------------------**/
 .nav{
     display: flex;
     justify-content: space-between;
@@ -242,7 +247,7 @@ body {
         flex-grow: 0.7;
     }
 }
-/*FOOTER*/
+
 .footer {
     width: 100%;
     height: 135px;
@@ -255,18 +260,9 @@ body {
     align-items: center;
 }
 
-.socialmedia-container {
-    width: 25%;
-    height: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.socialmedia {
-    width: 25px;
-    height: 25px;
-}
+
+
 
 .copyright-container {
     width: 100%;
@@ -279,4 +275,7 @@ body {
 .copyright {
     color: gray;
 }
+
+
+
 
