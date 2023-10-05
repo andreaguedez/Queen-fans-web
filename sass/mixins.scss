@@ -1,0 +1,11 @@
+@mixin fondos($imagen) {
+    background-image: url($imagen);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@mixin titulo-fuente-color($fuente, $color) {
+    font-family: $fuente;
+    color: $color;
+}
